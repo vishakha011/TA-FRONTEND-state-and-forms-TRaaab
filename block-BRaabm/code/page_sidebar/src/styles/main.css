@@ -1,0 +1,261 @@
+/*  Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: 0;
+  background: none;
+}
+input,
+button,
+textarea {
+  box-shadow: none;
+}
+img {
+  object-fit: cover;
+}
+
+/* ====================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background: aliceblue;
+  font-family: "Rosario", sans-serif;
+}
+
+/* .container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+} */
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.grid {
+  display: grid;
+}
+
+.sidebar {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 1rem;
+}
+
+.navbar a {
+  padding: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.navbar a:hover {
+  color: #f1f1f1;
+}
+
+.button:hover {
+  color: #f1f1f1;
+}
+
+h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 0 2rem 2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: inline-block;
+  border: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.button-show {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 0 2rem 2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 20px;
+  color: #4587c0;
+  display: inline-block;
+  border: 1px solid #111;
+  cursor: pointer;
+}
