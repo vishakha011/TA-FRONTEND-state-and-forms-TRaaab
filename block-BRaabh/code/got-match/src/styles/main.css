@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 1rem;
+} */
+
+.box {
+  border: 2px solid #d6bcfa;
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #bfd6ff;
+}
+
+.options {
+  background: #e1c6c6;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.header {
+  padding: 2rem;
+  background: linear-gradient(to right, #4075d5, #954cb3 85%);
+}
+h1 {
+  color: #fff;
+}
+
+h2 {
+  margin-left: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid #e1dfdf;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  color: #4075d5;
+  background-color: #d1dae4;
+  padding: 0.8rem 1rem;
+  margin: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 10px 1px #999;
+}
+
+.filter-search {
+  margin: 2rem 0 2.5rem;
+}
+
+#search {
+  padding: 0.7rem 1rem;
+  width: 20rem;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  margin: 1rem auto;
+}
+
+.all-tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 1rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-gap: 2rem;
+  padding: 4rem;
+}
+
+.left-section {
+  width: 60%;
+}
+
+.right-section {
+  width: 40%;
+  text-align: center;
+}
+
+.house {
+  padding: 0.8rem 1rem;
+  list-style-type: none;
+  color: #4075d5;
+  background-color: #f2f5f8;
+  border-radius: 10px;
+  margin: 0 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.house:hover,
+.active,
+#search {
+  box-shadow: 0px 0px 10px 1px #999;
+  border: 2px solid #80e988;
+}
