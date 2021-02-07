@@ -1,0 +1,361 @@
+/*  Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: 0;
+  background: none;
+}
+input,
+button,
+textarea {
+  box-shadow: none;
+}
+img {
+  object-fit: cover;
+}
+
+/* ====================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background: aliceblue;
+  font-family: "Rosario", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+.header {
+  padding: 0;
+  height: 64px;
+  border-bottom: 1px solid #dadce0;
+}
+
+.brand-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  color: #3c4043;
+  cursor: pointer;
+}
+
+.nav {
+  margin-right: 4rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  display: inline-block;
+  font: 500 16px/24px Google Sans, Helvetica Neue, sans-serif;
+  letter-spacing: 0.1px;
+  align-items: center;
+  height: 100%;
+  min-width: 120px;
+  padding: 1rem 2.2rem;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  background: rgba(26, 115, 232, 0.04);
+}
+
+.button:hover {
+  color: #f1f1f1;
+}
+
+.toolbar {
+  border: 1px solid #dadce0;
+  border-radius: 48px;
+  height: 56px;
+  opacity: 1;
+  transition: opacity 0.2s cubic-bezier(0.55, 0, 0.55, 0.2);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.text-modifier {
+  color: #5f6368;
+  flex: 1;
+  height: 36px;
+  justify-content: center;
+  margin: 4px 0;
+  overflow: visible;
+  padding-left: 8px;
+  padding-right: 16px;
+  text-transform: none;
+}
+
+.select-option,
+.text,
+.select-font,
+.range {
+  font-size: 1rem;
+  color: #5f6368;
+  height: 2.5rem;
+  margin: 0.2rem 0;
+  overflow: visible;
+  padding-left: 1.4rem;
+  padding-right: 1.2rem;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.text {
+  width: 100%;
+}
+
+.range-modifier {
+  display: flex;
+  flex-grow: 1;
+  max-width: 440px;
+  padding-left: 8px;
+  padding-right: 16px;
+}
+
+.range {
+  margin-left: 8px;
+  min-width: 110px;
+  padding: 0;
+  width: 100%;
+}
+
+.border {
+  border-right: 1px solid #dadce0;
+}
+
+.container {
+  width: 1250px;
+  margin: 4rem auto;
+}
+
+.cards-section {
+  /* margin-top: 2rem; */
+}
+
+.card {
+  min-width: 290px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.title-style {
+  font-family: Google Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #202124;
+  /* margin: 1rem 1rem 0 1rem; */
+}
+
+span {
+  color: #5f6368;
+  font-size: 0.8rem;
+}
+
+.style-author {
+  font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
+  letter-spacing: 0.2px;
+  color: #5f6368;
+  margin-bottom: 2rem;
+}
+
+.style {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.styled-text {
+  line-height: 1.6;
+}
+
+.button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 0 2rem 2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: inline-block;
+  border: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
